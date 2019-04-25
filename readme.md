@@ -23,3 +23,4 @@ GDAL 2.4.0, released 2018/12/14
 
 ## References / Credits / linux:
 - Trevor R.H. Clarke for maintaining [GDAL for alpine](https://pkgs.alpinelinux.org/package/edge/testing/x86/gdal) 
+- See also [docker-gdal-base](https://github.com/perrygeo/docker-gdal-base)
