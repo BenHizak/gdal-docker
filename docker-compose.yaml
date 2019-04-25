@@ -4,9 +4,9 @@ services:
     # stdin_open: true
     # tty: true
     build: .
-    image: cherre/gdal
+    image: benhizak/gdal
     # entrypoint: /bin/bash
     volumes:
       - type: bind
-        source: "C:\\TMP"
+        source: "~"
         target: /mnt

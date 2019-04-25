@@ -1,5 +1,5 @@
-MAINTAINER ben@cherre.com
 FROM alpine:3.9
+LABEL Author ben@cherre.com
 RUN apk update && \
     apk upgrade && \
     apk add --no-cache bash && \
