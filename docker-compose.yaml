@@ -1,0 +1,12 @@
+version: "3.7"
+services:
+  gdal:
+    # stdin_open: true
+    # tty: true
+    build: .
+    image: cherre/gdal
+    # entrypoint: /bin/bash
+    volumes:
+      - type: bind
+        source: "C:\\TMP"
+        target: /mnt
