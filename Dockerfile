@@ -1,4 +1,5 @@
-FROM alpine:latest
+MAINTAINER ben@cherre.com
+FROM alpine:3.9
 RUN apk update && \
     apk upgrade && \
     apk add --no-cache bash && \
