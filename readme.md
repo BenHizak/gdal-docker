@@ -1,6 +1,6 @@
 Docker image with [GDAL](http://gdal.org) based on [Alpine Linux](https://alpinelinux.org/)
 
-
+repo: https://github.com/BenHizak/gdal-docker
 ### running
 to see current windows path (WSL windows)
 ```cmd
@@ -8,12 +8,12 @@ wslpath -w "$(pwd)"
 ```
 
  ```bash
- docker run --rm -ti -v "$pwd":/mnt cherre/gdal
+ docker run --rm -ti -v "$pwd":/mnt benhizak/gdal
  ```
 if running on windows WSL
 
 ```
- docker run --rm -ti -v "$(wslpath -w $(pwd))":/mnt cherre/gdal
+ docker run --rm -ti -v "$(wslpath -w $(pwd))":/mnt benhizak/gdal
  ```
 
 
